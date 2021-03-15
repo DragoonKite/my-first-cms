@@ -2,7 +2,7 @@ INSERT INTO department (name)
 Values ('IT'), ('HR'), ('LEGAL');
 
 INSERT INTO companyRole (title, salary, department_id)
-VALUES ('Head of IT', 175000.00, 1)
+VALUES ('Head of IT', 175000.00, 1),
        ('Head of HR', 150000.00, 2),
        ('Lawyer', 250000.00, 3),
        ('Clerk', 50000.00, 3),
